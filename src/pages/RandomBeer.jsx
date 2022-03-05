@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { getRandomBeer } from "../services/beer";
 import BeerDetails from "../components/BeerDetails";
-const RandomBeer = () => {
+
+function RandomBeer() {
   console.log("RandomBeer");
   const [beer, setBeer] = useState();
 

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const BeerDetails = ({image_url,name,tagline,first_brewed,attenuation_level,description,contributed_by}) => {
+function BeerDetails ({image_url,name,tagline,first_brewed,attenuation_level,description,contributed_by}) {
   return (
     <>
      <img src={image_url} alt=""/>
