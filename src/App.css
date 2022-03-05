@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  background: lightblue;
+  color: white;
+  padding: 20px 20px;
+  box-shadow: 0px 1px 2px gray;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+nav p {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card {
+  width: 400px;
+  padding: 10px;
+  box-shadow: 0px 2px 3px grey;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background: #cfb2d6;
+  border-radius: 4px;
+}
